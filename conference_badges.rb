@@ -1,1 +1,3 @@
-# Write your code here.
+def conference_badges(attendees)
+  attendees.each do |name|
+  
