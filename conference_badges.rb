@@ -26,4 +26,9 @@ def printer(attendees)
   batch_badge_creator.each do |results1|
     new_array1 << results1
   end
+  return new_array1
+  assign_rooms.each do |results2|
+    new_array2 << results2
+  end
+  return new_array2
 end
