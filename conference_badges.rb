@@ -19,5 +19,5 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
-  new_array=assign_rooms
+  new_array=assign_rooms(attendees)
 end
