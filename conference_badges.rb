@@ -19,16 +19,12 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
-  new_array1=[]
-  new_array2=[]
   batch_badge_creator(attendees)
   assign_rooms(attendees)
   batch_badge_creator(attendees).each do |results1|
-    new_array1 << results1
+    puts results1
   end
-  puts new_array1
   assign_rooms(attendees).each do |results2|
-    new_array2 << results2
+    puts results2
   end
-  puts new_array2
 end
